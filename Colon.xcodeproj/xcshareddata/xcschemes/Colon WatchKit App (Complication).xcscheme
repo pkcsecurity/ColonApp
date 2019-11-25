@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "915A9CB723890C4900663591"
-               BuildableName = ":.app"
+               BuildableName = "Colon WatchKit App.app"
                BlueprintName = "Colon WatchKit App"
                ReferencedContainer = "container:Colon.xcodeproj">
             </BuildableReference>
@@ -29,7 +29,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "915A9C8D23890C4900663591"
-               BuildableName = ":.app"
+               BuildableName = "Colon.app"
                BlueprintName = "Colon"
                ReferencedContainer = "container:Colon.xcodeproj">
             </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "915A9CB723890C4900663591"
-            BuildableName = ":.app"
+            BuildableName = "Colon WatchKit App.app"
             BlueprintName = "Colon WatchKit App"
             ReferencedContainer = "container:Colon.xcodeproj">
          </BuildableReference>
@@ -82,7 +82,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "915A9CB723890C4900663591"
-            BuildableName = ":.app"
+            BuildableName = "Colon WatchKit App.app"
             BlueprintName = "Colon WatchKit App"
             ReferencedContainer = "container:Colon.xcodeproj">
          </BuildableReference>
@@ -91,7 +91,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "915A9CB723890C4900663591"
-            BuildableName = ":.app"
+            BuildableName = "Colon WatchKit App.app"
             BlueprintName = "Colon WatchKit App"
             ReferencedContainer = "container:Colon.xcodeproj">
          </BuildableReference>

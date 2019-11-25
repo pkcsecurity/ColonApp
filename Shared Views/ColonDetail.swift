@@ -12,9 +12,11 @@ struct ColonDetail: View {
     @EnvironmentObject var statuses: StatusData
     
     var body: some View {
-        VStack {
-            Circle().padding(20).scaledToFit().scaleEffect(0.5).foregroundColor(self.statuses.topOpen ? Color.green : Color.red)
-            Circle().padding(20).scaledToFit().scaleEffect(0.5).foregroundColor(self.statuses.bottomOpen ? Color.green : Color.red)
+        GeometryReader { geometry in
+            VStack(spacing: geometry.size.height / 10) {
+                Circle().frame(width: geometry.size.width / 4, height: geometry.size.width / 4).foregroundColor(self.statuses.topOpen ? Color.green : Color.red)
+                Circle().frame(width: geometry.size.width / 4, height: geometry.size.width / 4).foregroundColor(self.statuses.bottomOpen ? Color.green : Color.red)
+            }
         }
     }
 }
