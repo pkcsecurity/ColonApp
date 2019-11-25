@@ -9,41 +9,29 @@
 /* Begin PBXBuildFile section */
 		915A9C9223890C4900663591 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A9C9123890C4900663591 /* AppDelegate.swift */; };
 		915A9C9423890C4900663591 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A9C9323890C4900663591 /* SceneDelegate.swift */; };
-		915A9C9623890C4900663591 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A9C9523890C4900663591 /* ContentView.swift */; };
 		915A9C9823890C4900663591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 915A9C9723890C4900663591 /* Assets.xcassets */; };
 		915A9C9B23890C4900663591 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 915A9C9A23890C4900663591 /* Preview Assets.xcassets */; };
 		915A9C9E23890C4900663591 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 915A9C9C23890C4900663591 /* LaunchScreen.storyboard */; };
-		915A9CA923890C4900663591 /* ColonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A9CA823890C4900663591 /* ColonTests.swift */; };
-		915A9CB423890C4900663591 /* ColonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A9CB323890C4900663591 /* ColonUITests.swift */; };
 		915A9CB923890C4900663591 /* Colon WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 915A9CB823890C4900663591 /* Colon WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		915A9CBF23890C4900663591 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 915A9CBD23890C4900663591 /* Interface.storyboard */; };
 		915A9CC123890C4A00663591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 915A9CC023890C4A00663591 /* Assets.xcassets */; };
 		915A9CC823890C4A00663591 /* Colon WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 915A9CC723890C4A00663591 /* Colon WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		915A9CCD23890C4A00663591 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A9CCC23890C4A00663591 /* ContentView.swift */; };
 		915A9CCF23890C4A00663591 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A9CCE23890C4A00663591 /* HostingController.swift */; };
 		915A9CD123890C4A00663591 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A9CD023890C4A00663591 /* ExtensionDelegate.swift */; };
 		915A9CD323890C4A00663591 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A9CD223890C4A00663591 /* NotificationController.swift */; };
 		915A9CD523890C4A00663591 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A9CD423890C4A00663591 /* NotificationView.swift */; };
-		915A9CD723890C4A00663591 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A9CD623890C4A00663591 /* ComplicationController.swift */; };
 		915A9CD923890C4A00663591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 915A9CD823890C4A00663591 /* Assets.xcassets */; };
 		915A9CDC23890C4A00663591 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 915A9CDB23890C4A00663591 /* Preview Assets.xcassets */; };
+		915A9CF323890D4F00663591 /* StatusData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A9CF223890D4F00663591 /* StatusData.swift */; };
+		915A9CF623890ECB00663591 /* ColonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A9CF523890ECB00663591 /* ColonDetail.swift */; };
+		915A9CF9238911EC00663591 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A9CCC23890C4A00663591 /* ContentView.swift */; };
+		91FE6D08238C9254008F461F /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A9CD623890C4A00663591 /* ComplicationController.swift */; };
+		91FE6D0D238C9436008F461F /* StatusData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A9CF223890D4F00663591 /* StatusData.swift */; };
+		91FE6D0E238C9436008F461F /* ColonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A9CF523890ECB00663591 /* ColonDetail.swift */; };
+		91FE6D0F238C9436008F461F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A9CCC23890C4A00663591 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		915A9CA523890C4900663591 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 915A9C8623890C4800663591 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 915A9C8D23890C4900663591;
-			remoteInfo = Colon;
-		};
-		915A9CB023890C4900663591 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 915A9C8623890C4800663591 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 915A9C8D23890C4900663591;
-			remoteInfo = Colon;
-		};
 		915A9CBA23890C4900663591 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 915A9C8623890C4800663591 /* Project object */;
@@ -89,17 +77,10 @@
 		915A9C8E23890C4900663591 /* Colon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		915A9C9123890C4900663591 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		915A9C9323890C4900663591 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		915A9C9523890C4900663591 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		915A9C9723890C4900663591 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		915A9C9A23890C4900663591 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		915A9C9D23890C4900663591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		915A9C9F23890C4900663591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		915A9CA423890C4900663591 /* ColonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		915A9CA823890C4900663591 /* ColonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColonTests.swift; sourceTree = "<group>"; };
-		915A9CAA23890C4900663591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		915A9CAF23890C4900663591 /* ColonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		915A9CB323890C4900663591 /* ColonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColonUITests.swift; sourceTree = "<group>"; };
-		915A9CB523890C4900663591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		915A9CB823890C4900663591 /* Colon WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Colon WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		915A9CBE23890C4900663591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		915A9CC023890C4A00663591 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -115,24 +96,12 @@
 		915A9CDB23890C4A00663591 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		915A9CDD23890C4A00663591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		915A9CDE23890C4A00663591 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		915A9CF223890D4F00663591 /* StatusData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusData.swift; sourceTree = "<group>"; };
+		915A9CF523890ECB00663591 /* ColonDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColonDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		915A9C8B23890C4900663591 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		915A9CA123890C4900663591 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		915A9CAC23890C4900663591 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -152,9 +121,9 @@
 		915A9C8523890C4800663591 = {
 			isa = PBXGroup;
 			children = (
+				91FE6D0C238C9426008F461F /* Models */,
+				91FE6D0B238C9422008F461F /* Shared Views */,
 				915A9C9023890C4900663591 /* Colon */,
-				915A9CA723890C4900663591 /* ColonTests */,
-				915A9CB223890C4900663591 /* ColonUITests */,
 				915A9CBC23890C4900663591 /* Colon WatchKit App */,
 				915A9CCB23890C4A00663591 /* Colon WatchKit Extension */,
 				915A9C8F23890C4900663591 /* Products */,
@@ -165,8 +134,6 @@
 			isa = PBXGroup;
 			children = (
 				915A9C8E23890C4900663591 /* Colon.app */,
-				915A9CA423890C4900663591 /* ColonTests.xctest */,
-				915A9CAF23890C4900663591 /* ColonUITests.xctest */,
 				915A9CB823890C4900663591 /* Colon WatchKit App.app */,
 				915A9CC723890C4A00663591 /* Colon WatchKit Extension.appex */,
 			);
@@ -178,7 +145,6 @@
 			children = (
 				915A9C9123890C4900663591 /* AppDelegate.swift */,
 				915A9C9323890C4900663591 /* SceneDelegate.swift */,
-				915A9C9523890C4900663591 /* ContentView.swift */,
 				915A9C9723890C4900663591 /* Assets.xcassets */,
 				915A9C9C23890C4900663591 /* LaunchScreen.storyboard */,
 				915A9C9F23890C4900663591 /* Info.plist */,
@@ -195,24 +161,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		915A9CA723890C4900663591 /* ColonTests */ = {
-			isa = PBXGroup;
-			children = (
-				915A9CA823890C4900663591 /* ColonTests.swift */,
-				915A9CAA23890C4900663591 /* Info.plist */,
-			);
-			path = ColonTests;
-			sourceTree = "<group>";
-		};
-		915A9CB223890C4900663591 /* ColonUITests */ = {
-			isa = PBXGroup;
-			children = (
-				915A9CB323890C4900663591 /* ColonUITests.swift */,
-				915A9CB523890C4900663591 /* Info.plist */,
-			);
-			path = ColonUITests;
-			sourceTree = "<group>";
-		};
 		915A9CBC23890C4900663591 /* Colon WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,7 +174,6 @@
 		915A9CCB23890C4A00663591 /* Colon WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				915A9CCC23890C4A00663591 /* ContentView.swift */,
 				915A9CCE23890C4A00663591 /* HostingController.swift */,
 				915A9CD023890C4A00663591 /* ExtensionDelegate.swift */,
 				915A9CD223890C4A00663591 /* NotificationController.swift */,
@@ -246,6 +193,23 @@
 				915A9CDB23890C4A00663591 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91FE6D0B238C9422008F461F /* Shared Views */ = {
+			isa = PBXGroup;
+			children = (
+				915A9CF523890ECB00663591 /* ColonDetail.swift */,
+				915A9CCC23890C4A00663591 /* ContentView.swift */,
+			);
+			path = "Shared Views";
+			sourceTree = "<group>";
+		};
+		91FE6D0C238C9426008F461F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				915A9CF223890D4F00663591 /* StatusData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,42 +233,6 @@
 			productName = Colon;
 			productReference = 915A9C8E23890C4900663591 /* Colon.app */;
 			productType = "com.apple.product-type.application";
-		};
-		915A9CA323890C4900663591 /* ColonTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 915A9CEC23890C4A00663591 /* Build configuration list for PBXNativeTarget "ColonTests" */;
-			buildPhases = (
-				915A9CA023890C4900663591 /* Sources */,
-				915A9CA123890C4900663591 /* Frameworks */,
-				915A9CA223890C4900663591 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				915A9CA623890C4900663591 /* PBXTargetDependency */,
-			);
-			name = ColonTests;
-			productName = ColonTests;
-			productReference = 915A9CA423890C4900663591 /* ColonTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		915A9CAE23890C4900663591 /* ColonUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 915A9CEF23890C4A00663591 /* Build configuration list for PBXNativeTarget "ColonUITests" */;
-			buildPhases = (
-				915A9CAB23890C4900663591 /* Sources */,
-				915A9CAC23890C4900663591 /* Frameworks */,
-				915A9CAD23890C4900663591 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				915A9CB123890C4900663591 /* PBXTargetDependency */,
-			);
-			name = ColonUITests;
-			productName = ColonUITests;
-			productReference = 915A9CAF23890C4900663591 /* ColonUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		915A9CB723890C4900663591 /* Colon WatchKit App */ = {
 			isa = PBXNativeTarget;
@@ -353,14 +281,6 @@
 					915A9C8D23890C4900663591 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
-					915A9CA323890C4900663591 = {
-						CreatedOnToolsVersion = 11.2.1;
-						TestTargetID = 915A9C8D23890C4900663591;
-					};
-					915A9CAE23890C4900663591 = {
-						CreatedOnToolsVersion = 11.2.1;
-						TestTargetID = 915A9C8D23890C4900663591;
-					};
 					915A9CB723890C4900663591 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -383,8 +303,6 @@
 			projectRoot = "";
 			targets = (
 				915A9C8D23890C4900663591 /* Colon */,
-				915A9CA323890C4900663591 /* ColonTests */,
-				915A9CAE23890C4900663591 /* ColonUITests */,
 				915A9CB723890C4900663591 /* Colon WatchKit App */,
 				915A9CC623890C4A00663591 /* Colon WatchKit Extension */,
 			);
@@ -399,20 +317,6 @@
 				915A9C9E23890C4900663591 /* LaunchScreen.storyboard in Resources */,
 				915A9C9B23890C4900663591 /* Preview Assets.xcassets in Resources */,
 				915A9C9823890C4900663591 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		915A9CA223890C4900663591 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		915A9CAD23890C4900663591 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,24 +346,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				915A9C9223890C4900663591 /* AppDelegate.swift in Sources */,
+				915A9CF9238911EC00663591 /* ContentView.swift in Sources */,
+				915A9CF623890ECB00663591 /* ColonDetail.swift in Sources */,
+				915A9CF323890D4F00663591 /* StatusData.swift in Sources */,
 				915A9C9423890C4900663591 /* SceneDelegate.swift in Sources */,
-				915A9C9623890C4900663591 /* ContentView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		915A9CA023890C4900663591 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				915A9CA923890C4900663591 /* ColonTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		915A9CAB23890C4900663591 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				915A9CB423890C4900663591 /* ColonUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,27 +358,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				915A9CCF23890C4A00663591 /* HostingController.swift in Sources */,
-				915A9CCD23890C4A00663591 /* ContentView.swift in Sources */,
+				91FE6D0E238C9436008F461F /* ColonDetail.swift in Sources */,
+				91FE6D0F238C9436008F461F /* ContentView.swift in Sources */,
 				915A9CD323890C4A00663591 /* NotificationController.swift in Sources */,
 				915A9CD123890C4A00663591 /* ExtensionDelegate.swift in Sources */,
+				91FE6D08238C9254008F461F /* ComplicationController.swift in Sources */,
 				915A9CD523890C4A00663591 /* NotificationView.swift in Sources */,
-				915A9CD723890C4A00663591 /* ComplicationController.swift in Sources */,
+				91FE6D0D238C9436008F461F /* StatusData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		915A9CA623890C4900663591 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 915A9C8D23890C4900663591 /* Colon */;
-			targetProxy = 915A9CA523890C4900663591 /* PBXContainerItemProxy */;
-		};
-		915A9CB123890C4900663591 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 915A9C8D23890C4900663591 /* Colon */;
-			targetProxy = 915A9CB023890C4900663591 /* PBXContainerItemProxy */;
-		};
 		915A9CBB23890C4900663591 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 915A9CB723890C4900663591 /* Colon WatchKit App */;
@@ -650,7 +532,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pkcsecurity.Colon.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
+				PRODUCT_NAME = "Colon WatchKit Extension";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -674,7 +556,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pkcsecurity.Colon.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
+				PRODUCT_NAME = "Colon WatchKit Extension";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -693,7 +575,7 @@
 				IBSC_MODULE = Colon_WatchKit_Extension;
 				INFOPLIST_FILE = "Colon WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pkcsecurity.Colon.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Colon WatchKit App";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -712,7 +594,7 @@
 				IBSC_MODULE = Colon_WatchKit_Extension;
 				INFOPLIST_FILE = "Colon WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pkcsecurity.Colon.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Colon WatchKit App";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -725,6 +607,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Colon/Preview Content\"";
 				DEVELOPMENT_TEAM = H36H5AXY5V;
@@ -735,7 +618,8 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pkcsecurity.Colon;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Colon;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -745,6 +629,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Colon/Preview Content\"";
 				DEVELOPMENT_TEAM = H36H5AXY5V;
@@ -755,93 +640,10 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pkcsecurity.Colon;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Colon;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		915A9CED23890C4A00663591 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H36H5AXY5V;
-				INFOPLIST_FILE = ColonTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pkcsecurity.ColonTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Colon.app/Colon";
-			};
-			name = Debug;
-		};
-		915A9CEE23890C4A00663591 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H36H5AXY5V;
-				INFOPLIST_FILE = ColonTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pkcsecurity.ColonTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Colon.app/Colon";
-			};
-			name = Release;
-		};
-		915A9CF023890C4A00663591 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H36H5AXY5V;
-				INFOPLIST_FILE = ColonUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pkcsecurity.ColonUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Colon;
-			};
-			name = Debug;
-		};
-		915A9CF123890C4A00663591 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H36H5AXY5V;
-				INFOPLIST_FILE = ColonUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pkcsecurity.ColonUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Colon;
 			};
 			name = Release;
 		};
@@ -880,24 +682,6 @@
 			buildConfigurations = (
 				915A9CEA23890C4A00663591 /* Debug */,
 				915A9CEB23890C4A00663591 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		915A9CEC23890C4A00663591 /* Build configuration list for PBXNativeTarget "ColonTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				915A9CED23890C4A00663591 /* Debug */,
-				915A9CEE23890C4A00663591 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		915A9CEF23890C4A00663591 /* Build configuration list for PBXNativeTarget "ColonUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				915A9CF023890C4A00663591 /* Debug */,
-				915A9CF123890C4A00663591 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
