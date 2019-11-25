@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		915A9C9223890C4900663591 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A9C9123890C4900663591 /* AppDelegate.swift */; };
 		915A9C9423890C4900663591 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A9C9323890C4900663591 /* SceneDelegate.swift */; };
-		915A9C9823890C4900663591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 915A9C9723890C4900663591 /* Assets.xcassets */; };
 		915A9C9B23890C4900663591 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 915A9C9A23890C4900663591 /* Preview Assets.xcassets */; };
 		915A9C9E23890C4900663591 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 915A9C9C23890C4900663591 /* LaunchScreen.storyboard */; };
 		915A9CB923890C4900663591 /* Colon WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 915A9CB823890C4900663591 /* Colon WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -29,6 +28,7 @@
 		91FE6D0D238C9436008F461F /* StatusData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A9CF223890D4F00663591 /* StatusData.swift */; };
 		91FE6D0E238C9436008F461F /* ColonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A9CF523890ECB00663591 /* ColonDetail.swift */; };
 		91FE6D0F238C9436008F461F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A9CCC23890C4A00663591 /* ContentView.swift */; };
+		91FE6D12238C95CA008F461F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 915A9C9723890C4900663591 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -145,9 +145,9 @@
 			children = (
 				915A9C9123890C4900663591 /* AppDelegate.swift */,
 				915A9C9323890C4900663591 /* SceneDelegate.swift */,
-				915A9C9723890C4900663591 /* Assets.xcassets */,
 				915A9C9C23890C4900663591 /* LaunchScreen.storyboard */,
 				915A9C9F23890C4900663591 /* Info.plist */,
+				915A9C9723890C4900663591 /* Assets.xcassets */,
 				915A9C9923890C4900663591 /* Preview Content */,
 			);
 			path = Colon;
@@ -315,8 +315,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				915A9C9E23890C4900663591 /* LaunchScreen.storyboard in Resources */,
+				91FE6D12238C95CA008F461F /* Assets.xcassets in Resources */,
 				915A9C9B23890C4900663591 /* Preview Assets.xcassets in Resources */,
-				915A9C9823890C4900663591 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
