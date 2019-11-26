@@ -3,109 +3,109 @@
     {
       "size" : "20x20",
       "idiom" : "iphone",
-      "filename" : "apple-touch-icon-1.png",
+      "filename" : "colon-40.png",
       "scale" : "2x"
     },
     {
       "size" : "20x20",
       "idiom" : "iphone",
-      "filename" : "apple-touch-icon-2.png",
+      "filename" : "colon-60.png",
       "scale" : "3x"
     },
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "apple-touch-icon-4.png",
+      "filename" : "colon-58.png",
       "scale" : "2x"
     },
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "apple-touch-icon-3.png",
+      "filename" : "colon-87.png",
       "scale" : "3x"
     },
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "apple-touch-icon-6.png",
+      "filename" : "colon-80.png",
       "scale" : "2x"
     },
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "apple-touch-icon-5.png",
+      "filename" : "colon-120.png",
       "scale" : "3x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "apple-touch-icon.png",
+      "filename" : "colon-121.png",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "apple-touch-icon-7.png",
+      "filename" : "colon-180.png",
       "scale" : "3x"
     },
     {
       "size" : "20x20",
       "idiom" : "ipad",
-      "filename" : "apple-touch-icon-9.png",
+      "filename" : "colon-20.png",
       "scale" : "1x"
     },
     {
       "size" : "20x20",
       "idiom" : "ipad",
-      "filename" : "apple-touch-icon-8.png",
+      "filename" : "colon-42.png",
       "scale" : "2x"
     },
     {
       "size" : "29x29",
       "idiom" : "ipad",
-      "filename" : "apple-touch-icon-11.png",
+      "filename" : "colon-29.png",
       "scale" : "1x"
     },
     {
       "size" : "29x29",
       "idiom" : "ipad",
-      "filename" : "apple-touch-icon-10.png",
+      "filename" : "colon-59.png",
       "scale" : "2x"
     },
     {
       "size" : "40x40",
       "idiom" : "ipad",
-      "filename" : "apple-touch-icon-13.png",
+      "filename" : "colon-41.png",
       "scale" : "1x"
     },
     {
       "size" : "40x40",
       "idiom" : "ipad",
-      "filename" : "apple-touch-icon-12.png",
+      "filename" : "colon-81.png",
       "scale" : "2x"
     },
     {
       "size" : "76x76",
       "idiom" : "ipad",
-      "filename" : "apple-touch-icon-15.png",
+      "filename" : "colon-76.png",
       "scale" : "1x"
     },
     {
       "size" : "76x76",
       "idiom" : "ipad",
-      "filename" : "apple-touch-icon-16.png",
+      "filename" : "colon-152.png",
       "scale" : "2x"
     },
     {
       "size" : "83.5x83.5",
       "idiom" : "ipad",
-      "filename" : "apple-touch-icon-14.png",
+      "filename" : "colon-167.png",
       "scale" : "2x"
     },
     {
       "size" : "1024x1024",
       "idiom" : "ios-marketing",
-      "filename" : "apple-touch-icon-17.png",
+      "filename" : "colon-1024.png",
       "scale" : "1x"
     }
   ],
